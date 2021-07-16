@@ -1,0 +1,238 @@
+body{
+	margin: 0;
+	padding: 0:;
+}
+
+
+/*Position-fixed*/
+
+.menu {
+    width: 100%;
+    background-color: brown;
+    overflow: hidden;
+    position: fixed;
+    left: 92%;
+    transition: 1s;
+}
+
+.menu:hover{
+	left: 0;
+}
+
+.menu ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+
+}
+
+.menu ul li{
+	float: left;
+
+}
+
+.menu ul li a{
+	text-decoration: none;
+	padding: 10px 20px;
+	display: block;
+	color: #fff;
+	text-transform: uppercase;
+
+}
+
+
+/*Position-fixed-1*/
+
+
+.menu-1{
+	width: 100%;
+	background-color: green;
+	overflow: hidden;
+	position: fixed;
+	right: 92%;
+	transition: 2s;
+
+}
+
+.menu-1:hover{
+	right:0%; 
+}
+
+.menu-1 ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+
+}
+
+.menu-1 ul li{
+	float: left;
+
+}
+
+.menu-1 ul li a{
+	text-decoration: none;
+	display: block;
+	padding: 10px 20px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+
+/*Position-fixed-(menu-center-text)*/
+
+.menu-center-text {
+    width: 100%;
+    background-color: orange;
+    position: fixed;
+    left: 92%;
+    transition: 1s;
+}
+
+.menu-center-text:hover{
+	left: 0;
+}
+
+.menu-center-text ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+
+}
+
+.menu-center-text ul li{
+	display: inline;
+
+}
+
+.menu-center-text ul li a{
+	text-decoration: none;
+	padding: 10px 20px;
+	display: inline-block;
+	color: #fff;
+	text-transform: uppercase;
+
+}
+
+
+/*Position-fixed-(menu-right-text)*/
+
+.menu-right-text {
+    width: 100%;
+    background-color: green;
+    position: fixed;
+    left: 92%;
+    transition: 1s;
+}
+
+.menu-right-text:hover{
+	left: 0;
+}
+
+.menu-right-text ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: right;
+
+}
+
+.menu-right-text ul li{
+	display: inline;
+
+}
+
+.menu-right-text ul li a{
+	text-decoration: none;
+	padding: 10px 20px;
+	display: inline-block;
+	color: #fff;
+	text-transform: uppercase;
+
+}
+
+
+/*Position-stickly*/
+
+
+
+.menu2 {
+    width: 100%;
+    background-color: blue;
+    overflow: hidden;
+    margin: 100px 0 0 0;
+    position: sticky;
+    top: 50px;
+}
+
+.menu2 ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+
+}
+
+.menu2 ul li{
+	float: left;
+
+}
+
+.menu2 ul li a{
+	text-decoration: none;
+	padding: 10px 20px;
+	display: block;
+	color: #fff;
+	text-transform: uppercase;
+
+}
+
+
+/*Position-Relative and Absolute*/
+
+
+
+.box-1{
+	width: 400px;
+	height: 400px;
+	background-color: green;
+	margin: 200px auto 0 auto;
+	position: relative;
+}
+
+.box-2{
+	width: 200px;
+	height: 200px;
+	background-color: red;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	border-radius: 50%,
+}
+
+.box-11{
+	width: 400px;
+	height: 400px;
+	background-color: blue;
+	margin: 200px auto 0 auto;
+	position: relative;
+
+
+}
+
+.box-22{
+
+	width: 200px;
+	height: 200px;
+	background-color: tomato;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	border-radius: 50%,
+
+}
+
+
+

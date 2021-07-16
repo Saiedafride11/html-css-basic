@@ -1,0 +1,62 @@
+.pricing-section{
+	width: 100%;
+	background: #fff;
+}
+.pricing-section .card-area {
+	position: relative;
+	width: 360px;
+	height: 400px;
+	border: 2px solid #f1f1f1;
+	margin-top: 60px;
+
+}
+.pricing-section .card-front, .pricing-section .card-back {
+	backface-visibility: hidden;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border: none;
+	top: 0;
+	left: 0;
+	border-radius: 0;
+	transition: .9s;
+}
+.pricing-section .card-back {
+	transform: perspective(600px) rotateX(180deg);
+	background: #f5ab35;
+}
+.pricing-section .card-front {
+	transform: perspective(600px) rotateX(0deg);
+}
+.pricing-section .card-area:hover > .card-front {
+	transform: perspective(600px) rotateX(-180deg);
+}
+.pricing-section .card-area:hover > .card-back {
+	transform: perspective(600px) rotateX(0deg);
+}
+.pricing-section .card .card-body {
+	padding-bottom: 40px;
+	border-bottom: 5px solid #f1f1f1;
+	position: relative;
+}
+.pricing-section .card .card-title{
+		font-size: 36px;
+		font-family: Poppins-Bold;
+		color: #222222;
+		margin: 0;
+}
+.pricing-section .card .card-subtitle {
+	margin-bottom: 0;
+	color: #b4b4b4;
+	font-size: 14px;
+	margin-top: 5px;
+}
+
+.pricing-section .card-back .card-body .card-title,
+.pricing-section .card-back .card-body .card-subtitle,
+.pricing-section .card-back .card-specification ul li,
+.pricing-section .card-back .card-specification ul li span,
+.pricing-section .card-back .card-specification a,
+.pricing-section .card-back .card-body .badge{
+	color: #fff !important;
+}

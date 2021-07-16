@@ -1,0 +1,89 @@
+*{
+	margin:0;
+	padding: 0;
+}
+.full_wrapper{
+	width:100%;
+}
+
+.main_wrapper{
+	width:80%;
+	margin:0 auto;
+}
+.logo_part{
+	width: 40%;
+	float: left;
+	margin-top: 25px;
+}
+.logo_part img{
+	width:30%;
+}
+.menu_part{
+	width:60%;
+	float: left;
+	margin-top: 20px;
+}
+.menu_part ul{
+	float: right;
+}
+.menu_part ul li{
+	float: left;
+	list-style-type: none;
+}
+.menu_part ul li a{
+	display: inline-block;
+	padding: 10px 20px;
+	text-decoration: none;
+	font-size: 20px;
+	color: blue;
+	text-transform: uppercase;
+	
+}
+.menu_part ul li a:hover{
+	color: white;
+	background-color: black;
+}
+.menu_section{
+	background-color: aquamarine;
+	height: 80px;
+}
+.slider{
+	position: relative;
+}
+.slider1{
+	background:url(../image/Strictclass.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 500px;
+}
+.ban-overlay{
+	position: absolute;
+	content: '';
+	top: 170px;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.ban_cont{
+	text-align: center;
+	color: white;
+} 
+.ban_cont h2{
+	font-size: 40px;
+	padding: 20px 10px;
+	border-bottom: 2px solid white;
+	margin: 0 200px;
+	margin-bottom: 20px;
+}
+.ban_cont a{
+	display: block;
+	
+	text-decoration: none;
+	padding: 20px;
+	margin-top: 50px;
+	margin-left: 200px;
+	margin-right: 200px;
+	border: 2px solid white;
+	color: white;
+}
+

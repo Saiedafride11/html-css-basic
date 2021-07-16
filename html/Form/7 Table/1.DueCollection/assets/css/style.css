@@ -1,0 +1,150 @@
+/* ================================================================
+                            Start Global area Css
+===================================================================*/
+*{
+    box-sizing:border-box;
+}
+body{
+    margin:0;
+    padding: 0;
+    font-size: 14px;
+}
+h1,h2,h3,h4,h5,h6{
+    margin:0;
+    padding:0;
+}
+.container{
+    max-width:1160px;
+    width:100%;
+    margin:0 auto;
+    padding:0 10px;
+}
+.clearFix::after{
+    content:"";
+    display: block;
+    clear:both;
+}
+.section-padding{
+    padding:10px 0;
+}
+th, td {
+    border: 1px solid #888;
+  
+}
+th,td{
+    padding:2px !important;
+  }
+.mt-10{
+    margin-top:10px;
+}
+
+select{
+    border: none;
+    width: 100%;
+	padding:4px;
+}
+input{
+    border:none;
+    width: 100%;
+	padding:4px;
+}
+/* ================================================================
+                            End Global area Css
+===================================================================*/
+
+
+/* ================================================================
+                            Start due-collection-header Css
+===================================================================*/
+.due-collection-header{
+    width:100%;
+}
+.due-collection-header .due-collection {
+	width: 100%;
+	text-align: center;
+	background: #E0E0E1;
+	padding: 7px 0;
+}
+.due-collection-header .due-collection h2 {
+	font-size: 30px;
+}
+/* ================================================================
+                            End due-collection-header Css
+===================================================================*/
+
+
+/* ================================================================
+                           Start due-collection-body Css
+===================================================================*/
+.due-collection-body-section{
+    width:100%;
+    margin-bottom:50px;
+}
+.due-collection-body-section .due-collection-body{
+    width:100%;
+
+}
+
+/* left */
+.due-collection-body .due-collection-body-lef{
+    width:60%;
+    float:left;
+ 
+
+}
+.due-collection-body-lef .due-collection-top-body-left {
+	width: 100%;
+	background: #E0E0E1;
+	margin-bottom: 10px;
+	padding: 7px;
+}
+.due-collection-body-lef .due-collection-middle-body-left {
+	width: 100%;
+	background: #E0E0E1;
+	padding: 7px;
+	border: 1px solid #888;
+}
+
+
+.due-collection-bottom-body-left{
+    width:100%;
+    background: #E0E0E1;
+}
+.bottom-left{
+    width:60%;
+    float:left;
+}
+.bottom-left table th, .bottom-left table td{
+    border:1px solid #888;
+    border-collapse:collapse;
+}
+.bottom-right{
+    width:38%;
+    float:right;
+}
+
+
+
+/* right */
+.due-collection-body .due-collection-body-right {
+	width: 38%;
+	float: right;
+	background: #E0E0E1;
+	padding: 7px;
+    border: 1px solid #888;
+
+}
+.right-bottom{
+    text-align: center;
+}
+.right-bottom button {
+	padding: 5px 22px;
+	font-size: 16px;
+	margin-right: 10px;
+}
+.right-bottom button:last-child{
+    margin-right:0;
+}
+/* ================================================================
+                           End due-collection-body Css
+===================================================================*/

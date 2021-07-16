@@ -1,0 +1,115 @@
+/* ================================================================
+                            Start Global area Css
+===================================================================*/
+*{
+    box-sizing:border-box;
+}
+body{
+    margin:0;
+    padding: 0;
+    font-size: 14px;
+}
+h1,h2,h3,h4,h5,h6{
+    margin:0;
+    padding:0;
+}
+.container{
+    max-width:1160px;
+    width:100%;
+    margin:0 auto;
+    padding:0 10px;
+}
+.clearFix::after{
+    content:"";
+    display: block;
+    clear:both;
+}
+.section-padding{
+    padding:10px 0;
+}
+/* table, th, td {
+    border: 1px solid #888;
+    border-collapse: collapse;
+} */
+th,td{
+    padding:3px !important;
+    border: 1px solid #888;
+  }
+.mt-10{
+    margin-top:10px;
+}
+
+select{
+    border: none;
+    /* width: 100%; */
+}
+input{
+    border:none;
+    /* width: 100%; */
+}
+.w-250{
+    width:130px;
+}
+.w-270{
+    width:250px;
+}
+.w-271{
+    width: 250px;
+}
+.w-272{
+    width: 500px;
+}
+.w-273{
+    width: 300px;
+}
+/* ================================================================
+                            End Global area Css
+===================================================================*/
+
+/* ================================================================
+                            Start Header
+===================================================================*/
+.header-section{
+    width: 100%;
+}
+.header-section .header{
+    width: 100%;
+	text-align: center;
+	background: #E0E0E1;
+	padding: 7px 0;
+}
+.header-section .header h1{
+    font-size: 40px;
+}
+/* ================================================================
+                            End Header
+===================================================================*/
+
+/* ================================================================
+                            start duo-section
+===================================================================*/
+.table-section{
+    width: 100%;
+}
+.table-section .table{
+    width: 100%;
+}
+.table-section .table .table-top{
+    width: 100%;
+	background: #E0E0E1;
+	padding: 7px;
+    border: 1px solid #888;
+}
+.table-section .table .table-bottom{
+    width: 100%;
+	background: #E0E0E1;
+	padding: 7px;
+    border: 1px solid #888;
+    margin-top: 20px;
+}
+.table-section .table .table-bottom th, .table-section .table .table-bottom td{
+    border: none;
+}
+/* ================================================================
+                            End duo-section
+===================================================================*/

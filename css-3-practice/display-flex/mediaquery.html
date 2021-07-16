@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            flex-direction: row;
+            /* flex-wrap: wrap; */
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .food{
+            border: 3px solid lightgray;
+            border-radius: 30px;
+            margin: 10px;
+            width: 350px;
+        }
+        .food img{
+            width: 100%;
+        }
+        @media ( max-width: 760px){
+            .container{
+                flex-direction: column;
+            }
+            .container .food {
+                background: green;
+            }
+        }
+        @media (min-width: 1200px) {
+            .container .food {
+                background: skyblue;
+            } 
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="food">
+            <img src="rumantik.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore labore sapiente sequi quam, nihil voluptatum doloremque minima modi magnam, dolorum natus magni inventore facere placeat temporibus saepe id et quibusdam, quasi qui. Doloremque fugit at quo placeat! Minima, eum consectetur.</p>
+        </div>
+        <div class="food">
+            <img src="rumantik.jpg" alt="">
+            <p>Animi, sequi, labore reiciendis expedita nihil aspernatur eos repudiandae necessitatibus dolores quaerat unde voluptatum voluptas cum accusamus porro distinctio dolorum! Rerum praesentium consequatur quam ad animi accusamus dolorum aliquid veritatis, magnam a eos perferendis necessitatibus molestiae. Non laborum ratione reiciendis?</p>
+        </div>
+        <div class="food">
+            <img src="rumantik.jpg" alt="">
+            <p>Laboriosam odit ab pariatur perferendis, voluptate ad sed, ipsum illo veniam iure accusamus doloribus libero, possimus optio molestiae aliquid repudiandae voluptatum corrupti expedita sint maxime! Obcaecati fuga voluptas quae expedita perspiciatis deserunt sit, cum architecto laudantium numquam dignissimos quo minus.</p>
+        </div>
+        <div class="food">
+            <img src="rumantik.jpg" alt="">
+            <p>Quo quam dolorem, saepe culpa odio numquam, eos deserunt cumque odit aspernatur sapiente recusandae nostrum tempora quod autem maxime tempore fugit. Quisquam labore accusantium, rerum, omnis quibusdam necessitatibus unde deserunt porro culpa recusandae consectetur, quod alias maxime accusamus repudiandae reiciendis.</p>
+        </div>
+        <div class="food">
+            <img src="rumantik.jpg" alt="">
+            <p>Laborum doloremque cupiditate porro. Ipsa nesciunt optio fugit est ex repudiandae voluptatum odit laboriosam molestiae dolorem, harum, sequi itaque maiores autem. Aliquid ducimus nulla inventore, porro quidem, adipisci perspiciatis tempore quam suscipit necessitatibus ullam hic odit consequuntur rerum debitis doloremque?</p>
+        </div>
+        <div class="food">
+            <img src="rumantik.jpg" alt="">
+            <p>Ullam saepe nulla fugiat. Dicta officiis autem sint quidem repellat atque possimus soluta quos quo sunt esse, aut dolorum sapiente quod impedit, consectetur amet dignissimos pariatur, cumque accusamus. Aliquam, facilis optio dicta iste nostrum cumque. Accusantium eveniet sunt animi recusandae?</p>
+        </div>
+    </div>
+</body>
+</html>

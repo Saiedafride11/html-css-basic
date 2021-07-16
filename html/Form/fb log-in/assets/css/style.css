@@ -1,0 +1,275 @@
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+
+h1.h2,h3,h4,h5,h6,p{
+	margin: 0px;
+	padding: 0px;
+}
+
+ul{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+a{
+	
+	text-decoration: none;
+}
+
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.container{
+	max-width: 1140px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.section-padding{
+	padding: 30px 0;
+}
+
+.section-padding-l{
+	padding: 30px 0 10px 0;
+}
+
+@font-face{
+	src: url(../fonts/montserrat/Montserrat-Regular.otf);
+	font-family: Montserrat-Regular;
+}
+
+@font-face{
+	src: url(../fonts/montserrat/Montserrat-Bold.otf);
+	font-family: Montserrat-Bold;
+}
+
+@font-face {
+    font-family: 'Aachen BT';
+    src: url('../fonts/Aachen/AachenBT-Roman.eot');
+    src: url('../fonts/Aachen/AachenBT-Roman.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Aachen/AachenBT-Roman.woff2') format('woff2'),
+        url('../fonts/Aachen/AachenBT-Roman.woff') format('woff'),
+        url('../fonts/Aachen/AachenBT-Roman.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway/Raleway-Regular.eot');
+    src: url('../fonts/Raleway/Raleway-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Raleway/Raleway-Regular.woff2') format('woff2'),
+        url('../fonts/Raleway/Raleway-Regular.woff') format('woff'),
+        url('../fonts/Raleway/Raleway-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+	src: url(../fonts/montserrat/Montserrat-Medium.otf);
+	font-family: Montserrat-Medium.otf;
+}
+
+/* =============================================
+			  Start Heading Section                 
+================================================= */
+.header-section{
+	width: 100%;
+	padding: 10px 0px;
+	background: #3d5b99;
+}
+.header{
+	width: 90%;
+	margin: 0 auto;
+}
+
+.header .logo{
+	width: 55%;
+	float: left;
+}
+
+.header .logo img{
+	width: 30%;
+	margin-left: -18px;
+}
+
+.header .log-in{
+	width: 45%;
+	float: left;
+	margin-top: -18px;
+}
+
+.header .email-number{
+	width: 40%;
+	float: left;
+}
+
+.header .email-number label{
+	color: #fff;
+}
+.header .email-number label input{
+	border: 1px solid #000;
+}
+
+.header .email-number input[type="checkbox"]{
+	margin-top: 3px;
+}
+.header .email-number p{
+	display: inline-block;
+	color: #fff;
+	margin-left: 5px;
+	font-size: 12px;
+}
+/* password */
+.header .password{
+	width:40%;
+	float: left;
+	margin-top: 18px;
+}
+
+.header .password label{
+	color: #fff;
+	margin-bottom: 1px;
+}
+
+.header .password p{
+	color: #fff;
+}
+.header .log-in-btn{
+	width:20%;
+	float: left;
+	margin-top: 36px;
+}
+
+.header .log-in-btn [type="submit"]{
+	color: #fff;
+	background: #0e39aa;
+	border: none;
+	padding: 2px 7px;
+}
+
+
+/* =============================================
+			  End Heading Section                 
+================================================= */
+
+.extra-section{
+	width: 100%;
+	padding: 0px 0px 300px 0px;
+	background: #e3e5f1;
+}
+
+.extra-section .extra{
+	width: 90%;
+	margin: 0 auto;
+}
+
+.extra-left{
+	width: 55%;
+	float: left;
+}
+
+.extra-left p{
+	margin-top: 20px;
+}
+
+.extra-left img{
+	width: 50%;
+	margin-left: -10px;
+}
+
+/* ======right */
+.extra-right{
+	width: 45%;
+	float: left;
+}
+
+.extra-right h2{
+	font-size: 25px;
+	margin-top: 8px;
+}
+
+.extra-right p{
+	margin-top: 8px;
+	margin-bottom: 4px;
+}
+
+.extra-right .name .left input{
+	padding: 3px 27px 3px 3px;
+	margin-top: 4px;
+}
+
+.extra-right .name .right input{
+	padding: 3px 27px 3px 3px;
+	margin-top: 4px;
+}
+
+.extra-right .phone input{
+	padding: 3px 234px 3px 3px;
+	margin-top: 6px;
+}
+
+
+.extra-right .re-phone input{
+	padding: 3px 234px 3px 3px;
+	margin-top: 6px;
+}
+
+.extra-right .password input{
+	padding: 3px 234px 3px 3px;
+	margin-top: 6px;
+}
+
+.extra-right .birthday{
+	margin-top: 12px;
+}
+
+
+.extra-right .birthday p{
+	display: inline-block;
+	font-size: 10px;
+	color: #3d5b99;
+	margin-top: 3px;
+}
+
+.extra-right .gender input{
+	margin-left: 10px;
+	margin-top: 7px;
+}
+
+.extra-right .gender input:first-child{
+	margin-left: 0px;
+}
+
+.extra-right .trams p{
+	display: inline-block;
+	font-size: 13px;
+	margin-top: 5px;
+}
+
+
+.extra-right .creat-btn {
+	margin-top: 10px;
+}
+
+.extra-right .creat-btn a{
+	padding:7px 20px;
+	background: #5a9448;
+	color: #fff;
+	border-radius: 5px;
+	margin-top: 30px;
+}
+
+.extra-right img{
+	width: 80%;
+	margin-top: 20px;
+}
+
+.extra-right .last-p{
+	margin-top: -7px;
+}

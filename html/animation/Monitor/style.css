@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.black{
+    width: 700px;
+    height:450px;
+    background-color: black;
+    margin: 10px auto 0px;
+    /* outline: 2px inset  black;
+    outline-offset: 1px; */
+    border: 5px ridge grey;
+    position: relative;
+}
+.Samsung{
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(0%, 100%);
+    z-index: 20;
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.monitor{
+    width: 670px;
+    height:420px;
+    background-color: red;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    animation: color 40s infinite;
+}
+.signal{
+    /* width: 20px;
+    height: 20px;
+    background-color: green; */
+    position: absolute;
+    z-index: 30;
+    left: 0%;
+    top: 50%;
+}
+@keyframes slidein{
+    0%{
+        top: 50%;
+        left: 0;
+        bottom: 0;
+    }
+    25%{
+        left: 50%;
+        top: 400px;
+    }
+    50%{
+        left: 605px;
+        top: 50%;
+    }
+    75%{
+        left: 50%;
+        top: 0px;
+    }
+    100%{
+        left: 0px;
+        top: 50%;
+    }
+}
+.monitor:hover .signal{
+    animation: slidein 20s ease-in-out 1s infinite alternate;
+}
+
+
+@keyframes color{
+   0%{
+       background-color: #1abc9c;
+   }
+   10%{
+       background-color: #2ecc71;
+   }
+   20%{
+       background-color: #3498db;
+   }
+   30%{
+       background-color: #9b59b6;
+   }
+   40%{
+       background-color: #f1c40f;
+   }
+   50%{
+       background-color: #e74c3c;
+   }
+   60%{
+       background-color: #55efc4;
+   }
+   70%{
+       background-color: #00cec9;
+   }
+   80%{
+       background-color: #e84393;
+   }
+   90%{
+       background-color: #1abc9c;
+   }
+   100%{
+       background-color: #1abc9c;
+   }
+}

@@ -1,0 +1,89 @@
+body{
+    background-color: rgb(219, 219, 219);
+}
+.container{
+    margin: 150px 0px 0px 150px;
+}
+.row{
+    width: 100%;
+    height: 50px;
+}
+.row0{
+    width: 90%;
+    height: 20px;
+}
+.function{
+    font-size: 15px;
+    width: 51.2px;
+    height: 26px;
+}
+/* .zero{
+    height: 10px;
+    margin: 13px 0 0 0;
+
+} */
+.one, .two, .three, .four, .five{
+    margin: 13px 0 0 0;
+}
+/* .six{
+    margin-left: 74%;
+    margin-top: -22.5%;
+}
+.seven{
+    margin-left: 74%;
+    margin-top: .9%;
+}
+.eight{
+    margin-left: 74%;
+    margin-top: 1%;
+}
+.nine{
+    margin-left: 74%;
+    margin-top: 1.1%;
+}
+.ten{
+    margin-left: 74%;
+    margin-top: 1.2%;
+} */
+button{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+    color: black;
+    height: 55px;
+    width: 55px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(243, 241, 241);
+    box-shadow: 5px 5px 10px #474343, -5px -5px 10px #FFF;
+    margin-left: 3px;
+    outline: none;
+}
+button:active{
+    box-shadow: 1px 1px 2px #fff8f8, -1px -1px 2px #474343;
+}
+.tab{
+    width: 85px;
+}
+.back{
+    width: 115px;
+}
+.caps{
+    width: 100px;
+}
+.shift{
+    width: 129px;
+}
+.shift1{
+    width: 103px;
+}
+.space{
+    width: 363px;
+}
+.enter{
+    width: 132px;
+}
+.frslash{
+ width: 85px;
+}
+
+_____________________________ .

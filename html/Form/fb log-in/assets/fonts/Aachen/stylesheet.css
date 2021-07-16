@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Aachen BT';
+    src: url('AachenBT-Roman.eot');
+    src: url('AachenBT-Roman.eot?#iefix') format('embedded-opentype'),
+        url('AachenBT-Roman.woff2') format('woff2'),
+        url('AachenBT-Roman.woff') format('woff'),
+        url('AachenBT-Roman.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+

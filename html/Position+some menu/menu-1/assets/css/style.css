@@ -1,0 +1,264 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.box-1{
+	width: 100%;
+	margin: 20px 0;
+    background-color: blue;
+    overflow: hidden;
+    position: fixed;
+    left: 94%;
+    transition: 1s;
+
+}
+
+.box-1:hover{
+	left: 0;
+}
+
+.box-1 ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+
+
+}
+
+.box-1 ul li{
+	float: left;
+
+}
+
+
+.box-1 ul li a{
+	text-decoration: none;
+	padding: 10px 20px;
+	display: block;
+	color: #fff;
+	text-transform: uppercase;
+
+}
+
+
+
+/*menu left-text left */
+
+
+.box-2{
+	width: 100%;
+	margin: 20px 0;
+    background-color: red;
+    position: fixed;
+    left: 94%;
+    transition: 1s;
+
+}
+
+.box-2:hover{
+	left: 0;
+}
+
+.box-2 ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+
+
+}
+
+.box-2 ul li{
+	display: inline;
+
+}
+
+
+.box-2 ul li a{
+	text-decoration: none;
+	padding: 10px 20px;
+	display: inline-block;
+	color: #fff;
+	text-transform: uppercase;
+
+}
+
+
+
+
+/*menu left-center text*/
+
+
+.box-3{
+	width: 100%;
+	margin: 20px 0;
+    background-color: green;
+    position: fixed;
+    left: 94%;
+    transition: 1s;
+
+}
+
+.box-3:hover{
+	left: 0;
+}
+
+.box-3 ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	text-align: right;
+
+
+}
+
+.box-3 ul li{
+	display: inline;
+
+}
+
+
+.box-3 ul li a{
+	text-decoration: none;
+	padding: 10px 20px;
+	display: inline-block;
+	color: #fff;
+	text-transform: uppercase;
+
+}
+
+
+/*menu left-text right */
+
+
+
+
+
+.box-4{
+	width: 100%;
+	margin: 20px 0;
+    background-color: blue;
+    overflow: hidden;
+    position: fixed;
+ 	right:94%;
+    transition: 1s;
+
+}
+
+.box-4:hover{
+	right: 0;
+}
+
+.box-4 ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+
+
+}
+
+.box-4 ul li{
+	float: left;
+
+}
+
+
+.box-4 ul li a{
+	text-decoration: none;
+	padding: 10px 20px;
+	display: block;
+	color: #fff;
+	text-transform: uppercase;
+
+}
+
+
+
+/*menu right-text left */
+
+
+.box-5{
+	width: 100%;
+	margin: 20px 0;
+    background-color: red;
+    position: fixed;
+    right: 94%;
+    transition: 1s;
+
+}
+
+.box-5:hover{
+	right: 0;
+}
+
+.box-5 ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+
+
+}
+
+.box-5 ul li{
+	display: inline;
+
+}
+
+
+.box-5 ul li a{
+	text-decoration: none;
+	padding: 10px 20px;
+	display: inline-block;
+	color: #fff;
+	text-transform: uppercase;
+
+}
+
+
+
+
+/*menu right-center text*/
+
+
+.box-6{
+	width: 100%;
+	margin: 20px 0;
+    background-color: green;
+    position: fixed;
+    right: 94%;
+    transition: 1s;
+
+}
+
+.box-6:hover{
+	right: 0;
+}
+
+.box-6 ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	text-align: right;
+
+
+}
+
+.box-6 ul li{
+	display: inline;
+
+}
+
+
+.box-6 ul li a{
+	text-decoration: none;
+	padding: 10px 20px;
+	display: inline-block;
+	color: #fff;
+	text-transform: uppercase;
+
+}
+
+
+/*menu left-text right */

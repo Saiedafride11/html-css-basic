@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Company Logo</title>
+		<!-- font awesome -->
+		<link rel="stylesheet" href="assets/css/all.min.css">
+		<!-- main css -->
+		<link rel="stylesheet" href="assets/css/style.css">
+
+		<!-- owl carosoul -->
+		<link rel="stylesheet" href="assets/owlcarousel/owl.carousel.min.css">
+		<link rel="stylesheet" href="assets/owlcarousel/owl.theme.default.min.css">
+	</head>
+	<body>
+		
+	<!--=============== Start header section================== -->
+
+	<h1>lorem ipsum doler</h1>
+	<!-- Set up your HTML -->
+	<div class="owl-carousel">
+		<img src="assets/images/team/team1.jpg" alt="">
+		<img src="assets/images/team/team2.jpg" alt="">
+		<img src="assets/images/team/team3.jpg" alt="">
+		<img src="assets/images/team/team4.jpg" alt="">
+		<img src="assets/images/team/team5.jpg" alt="">
+		<img src="assets/images/team/team6.jpg" alt="">
+		<img src="assets/images/team/team7.jpg" alt="">
+		<img src="assets/images/team/team8.jpg" alt="">
+		<img src="assets/images/team/team9.jpg" alt="">
+ 	 </div>
+
+
+
+
+	<script src="assets/js/jquery-3.5.0.js"></script>
+	<script src="assets/js/owl.carousel.min.js"></script>
+
+	<script>
+		$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        600:{
+            items:3,
+            nav:false
+        },
+        1000:{
+			items:3,
+			autoplay:true,
+			autoplaytimeout:2000,
+            nav:true,
+            loop:false
+        }
+    }
+})
+	</script>
+
+	</body>
+</html>
+

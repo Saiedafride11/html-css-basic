@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900|Work+Sans:400,500,600,700,800,900&display=swap');
+
+body{
+	text-align: justify;
+	min-height: 500px;
+	width: 900 px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.resumetitle{
+	margin-top: -150px;
+	font-family: 'Poppins', sans-serif;
+}
+
+.resumetitle2{
+	margin-top: -10px;
+	font-family: 'Poppins', sans-serif;
+}
+
+.mydp{
+	margin-left: 80%;
+	border: 2px solid #ddd;
+	border-radius: 4px;
+	padding: 5px;
+	width: 150px;
+  }
+
+
+.Rhead{
+		font-family: 'Poppins', sans-serif;
+		background-color: #878C8C;
+}
+
+.description{
+
+	font-family: 'Work Sans', sans-serif;
+}
+.mysignature{
+	height:="40px"
+	width="150px"
+}
+
+ .hr1 {
+  border-top: 5px dotted black;
+  width: 300px;
+  margin-right:100%;
+}

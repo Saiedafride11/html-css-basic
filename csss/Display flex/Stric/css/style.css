@@ -1,0 +1,82 @@
+.flex-container-one{
+	display: flex;
+	flex-flow: column;
+	border: 2px solid red;
+}
+
+.flex-item-one{
+	border:1px solid green;
+	padding: 10px;
+}
+
+/*two*/
+.flex-container-two{
+	display: flex;
+	flex-flow: row;
+	border: 2px solid blue;
+	margin-top: 20px;
+}
+
+.flex-item-two{
+	border:1px solid green;
+	padding: 10px;
+}
+
+/*three*/
+.flex-container-three{
+	display: flex;
+	flex-flow: row-reverse;
+	justify-content: space-between;
+	border: 2px solid red;
+	margin-top: 20px;
+	height: 200px;
+	align-items: center; /*  flex-start/flex-end   */
+}
+
+.flex-item-three{
+	border:1px solid green;
+	padding: 10px;
+}
+
+/*four*/
+.flex-container-four{
+	display: flex;
+	flex-flow: row;
+	justify-content: space-between;
+	border: 2px solid red;
+	margin-top: 20px;
+	height: 200px;
+	align-items: center; /*  flex-start/flex-end   */
+	flex-wrap: wrap;
+}
+
+.flex-item-four{
+	border:1px solid green;
+	padding: 10px;
+	min-width: 150px;
+}
+
+/*hero area */
+
+.hero-area{
+	width: 100%;
+	background-image: url(../images/banner.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+
+.hero-area-content h4{
+	font-size: 18px;
+	color: #fff
+}
+
+.hero-area-content h1{
+	font-size: 40px;
+	color: #fff
+}
+
+.hero-area-content{
+	max-width: 550px;
+	margin-left: 200px;
+}

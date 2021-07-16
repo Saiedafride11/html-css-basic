@@ -1,0 +1,283 @@
+.box-just{
+	width: 300px;
+	height: 300px;
+	background-color: blue;
+	margin: 0 auto;
+	position: relative;
+}
+
+.box-just::before{
+	content: "";
+	position:absolute;
+	width: 100%;
+	height: 100%;
+	background-color: green;
+	left: -100%;
+
+}
+
+.box-just::after{
+	content: "";
+	position:absolute;
+	width: 100%;
+	height: 100%;
+	background-color: red;
+	right: -100%;
+
+}
+
+
+/*box-main*/
+
+
+.box-1{
+	width: 300px;
+	height: 300px;
+	background-color: blue;
+	margin: 0 auto;
+	position: relative;
+}
+
+.box-1::before{
+	content: "";
+	position:absolute;
+	border-top: 150px solid green;
+	border-right: 150px solid red;
+	border-bottom: 150px solid blue;
+	border-left: 150px solid yellow;
+
+	left: -100%;
+
+}
+
+.box-1::after{
+	content: "";
+	position:absolute;
+	border-top: 150px solid blue;
+	border-right: 150px solid black;
+	border-bottom: 150px solid green;
+	border-left: 150px solid yellow;
+
+	right: -100%;
+
+}
+
+
+
+/*box-1*/
+
+
+.box-2{
+	width: 300px;
+	height: 300px;
+	background-color: red;
+	margin: 0 auto;
+	position: relative;
+}
+
+.box-2::before{
+	content: "";
+	position: absolute;
+	border-top: 150px solid red;
+	border-right: 150px solid red;
+	border-bottom: 150px solid red;
+	border-left: 150px solid transparent;
+
+	left: -100%;
+
+}
+
+.box-2::after{
+	content: "";
+	position: absolute;
+	border-top: 150px solid transparent;
+	border-right: 150px solid transparent;
+	border-bottom: 150px solid transparent;
+	border-left: 150px solid blue;
+
+	right: -100%;
+
+}
+
+
+/*box-2*/
+
+
+.box-3{
+	width: 300px;
+	height: 300px;
+	background-color: blue;
+	margin: 0 auto;
+	position: relative;
+}
+
+.box-3::before{
+	content: "";
+	position: absolute;
+	border-top: 150px solid transparent;
+	border-right: 150px solid transparent;
+	border-bottom: 150px solid transparent;
+	border-left: 150px solid green;
+
+	left: -100%;
+
+}
+
+.box-3::after{
+	content: "";
+	position: absolute;
+	border-top: 150px solid transparent;
+	border-right: 150px solid green;
+	border-bottom: 150px solid transparent;
+	border-left: 150px solid transparent;
+
+	right: -100%;
+
+}
+
+
+
+/*box-3*/
+
+
+.box-4{
+	width: 300px;
+	height: 300px;
+	background-color: black;
+	margin: 0 auto;
+	position: relative;
+}
+
+.box-4::before{
+	content: "";
+	position: absolute;
+	border-top: 150px solid transparent;
+	border-right: 150px solid red;
+	border-bottom: 150px solid transparent;
+	border-left: 150px solid transparent;
+
+	left: -100%;
+
+}
+
+.box-4::after{
+	content: "";
+	position: absolute;
+	border-top: 150px solid green;
+	border-right: 150px solid transparent;
+	border-bottom: 150px solid green;
+	border-left: 150px solid green;
+
+	right: -100%;
+
+}
+
+
+/*box-4*/
+
+
+.box-5{
+	width: 300px;
+	height: 300px;
+	background-color: blue;
+	margin: 0 auto;
+	position: relative;
+}
+
+.box-5::before{
+	content: "";
+	position: absolute;
+	border-top: 150px solid black;
+	border-right: 150px solid transparent;
+	border-bottom: 150px solid black;
+	border-left: 150px solid black;
+
+	left: -100%;
+
+}
+
+.box-5::after{
+	content: "";
+	position: absolute;
+	border-top: 150px solid green;
+	border-right: 150px solid green;
+	border-bottom: 150px solid green;
+	border-left: 150px solid transparent;
+
+	right: -100%;
+
+}
+
+
+/*box-5*/
+
+
+.box-6{
+	width: 300px;
+	height: 300px;
+	background-color: blue;
+	margin: 0 auto;
+	position: relative;
+}
+
+.box-6::before{
+	content: "";
+	position: absolute;
+	border-top: 150px solid transparent;
+	border-right: 150px solid transparent;
+	border-bottom: 150px solid transparent;
+	border-left: 150px solid green;
+
+	top: -100%;
+
+}
+
+.box-6::after{
+	content: "";
+	position: absolute;
+	border-top: 150px solid transparent;
+	border-right: 150px solid green;
+	border-bottom: 150px solid transparent;
+	border-left: 150px solid transparent;
+
+	bottom: -100%;
+
+}
+
+
+
+/*box-6*/
+
+
+.box-7{
+	width: 300px;
+	height: 300px;
+	background-color: blue;
+	margin: 0 auto;
+	position: relative;
+}
+
+.box-7::before{
+	content: "";
+	position: absolute;
+	border-top: 150px solid red;
+	border-right: 150px solid transparent;
+	border-bottom: 150px solid transparent;
+	border-left: 150px solid transparent;
+
+	top: -100%;
+
+}
+
+.box-7::after{
+	content: "";
+	position: absolute;
+	border-top: 150px solid transparent;
+	border-right: 150px solid transparent;
+	border-bottom: 150px solid red;
+	border-left: 150px solid transparent;
+
+	bottom: -100%;
+
+}
+

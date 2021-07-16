@@ -1,0 +1,161 @@
+/* ================================================================
+                            Start Global area Css
+===================================================================*/
+*{
+    box-sizing:border-box;
+}
+body{
+    margin:0;
+    padding: 0;
+    font-size: 14px;
+}
+h1,h2,h3,h4,h5,h6{
+    margin:0;
+    padding:0;
+}
+h2{
+    font-size:30px;
+}
+.container{
+    max-width:1160px;
+    width:100%;
+    margin:0 auto;
+    padding:0 10px;
+}
+.clearFix::after{
+    content:"";
+    display: block;
+    clear:both;
+}
+.section-padding{
+    padding:10px 0;
+}
+ th, td {
+    border: 1px solid #888;
+  
+}
+th,td{
+    padding:2px 2px !important;
+  }
+.mt-10{
+    margin-top:10px;
+}
+
+select{
+    border: none;
+    width: 100%;
+	padding:4px;
+}
+input{
+    border:none;
+    width: 100%;
+	padding:4px;
+}
+
+button {
+	padding: 5px 22px;
+	font-size: 16px;
+    margin-right: 10px;
+}
+
+.w-125{
+    width:125px;
+}
+
+.w-130{
+    width:130px;
+}
+.w-200{
+    width:200px;
+}
+.w-50{
+    width:50px;
+}
+.w-432{
+    width:432px;
+}
+.w-100{
+    width:80px;
+}
+/* ================================================================
+                            End Global area Css
+===================================================================*/
+
+
+
+/* ================================================================
+                          Start Purchase Invoice Css
+===================================================================*/
+.purchase-return-section{
+    width:100%;
+}
+.purchase-return-header{
+    width:100%;
+    background:#E0E0E1;
+    padding:7px 0;
+    text-align:center;
+}
+.purchase-return{
+    width:100%;
+    border:1px solid #888;
+    padding:7px;
+	margin-bottom:50px;
+ 
+}
+.purchase-return-left{
+    width:70%;
+    float:left;
+    
+}
+.purchase-return-col-1{
+    background:#E0E0E1;
+    border:1px solid #888;
+    padding:7px;
+}
+.purchase-return-col-2{
+    background:#E0E0E1;
+    border:1px solid #888;
+    padding:7px;
+}
+.purchase-return-col-3{
+    background:#E0E0E1;
+    border:1px solid #888;
+    padding:7px;
+}
+.purchase-return-col-4{
+    background:#E0E0E1;
+    border:1px solid #888;
+    padding:7px;
+}
+.purchase-return-col-5{
+    background:#E0E0E1;
+    border:1px solid #888;
+    padding:7px;
+}
+.col-4-left{
+    width:50%;
+    float:left;
+}
+.col-4-right{
+    width:38%;
+    float:right;
+    
+}
+
+
+.purchase-return-right{
+    width:28%;
+    float:right;
+    border:1px solid #888;
+    background:#E0E0E1;
+    padding:7px;
+    
+}
+/* ================================================================
+                          End Purchase Invoice Css
+===================================================================*/
+
+
+
+
+

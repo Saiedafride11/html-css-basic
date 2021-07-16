@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+
+        display: flex;
+        align-items: stretch|center|flex-start|flex-end|baseline|initial|inherit;
+        justify-content: flex-start|flex-end|center|space-between|space-around|space-evenly|initial|inherit;
+        flex-direction: row|row-reverse|column|column-reverse|initial|inherit;
+        flex-wrap: wrap;
+        flex-grow: 1;
+
+        order: 2;
+
+        display: grid;
+        grid: none|grid-template-rows / grid-template-columns|grid-template-areas|grid-template-rows / 
+            [grid-auto-flow] grid-auto-columns|[grid-auto-flow] grid-auto-rows /
+            grid-template-columns|initial|inherit
+        grid-template-columns: 150px 150px 150px;
+        grid-template-columns: repeat(3 , 150px);
+        grid-template-columns: repeat(3 , 1fr);
+        grid-gap: 1em;
+        grid-row: 1/span 4;
+
+
+
+        @media ( max-width: 760px){
+                    .container{
+                        flex-direction: column;
+                    }
+                    .container .food {
+                        background: green;
+                    }
+                }
+                @media (min-width: 1200px) {
+                    .container .food {
+                        background: skyblue;
+                    } 
+                }
+
+
+
+    </div>
+</body>
+</html>

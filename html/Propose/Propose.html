@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Afride And Ayshi Love Story</title>
+    <style>
+        h1{
+            color: red;
+            font-size: 70px;
+            font-family: sans-serif;
+            text-align: center;
+        }
+        button{
+            width: 100%;
+            display: inline-block;
+            background-color: goldenrod;
+            height: 100px;
+            border-radius: 20px;
+            font-size: 60px;
+            font-family: sans-serif;
+            font-weight: bold;
+            margin: 20px 0px 20px;
+            border: none;
+        }
+        button:hover{
+            background-color: red;
+            color: #fff;
+            transition: 1s;
+            border: none;
+        }
+        body{
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="message">You Will Be My Life Partner ?? &hearts;</h1>
+    <button onclick="propose()">Yes</button>
+    <button onclick="married()">Of course , Yes</button>
+    <button onclick="notpossible()">Not Possible</button>
+
+
+    <script>
+        function propose(){
+            var msg = 'I Love You Ayshi';
+            document.getElementById('message').innerText = msg;
+        }
+    </script>
+    <script>
+        function married(){
+            var msg = 'Will You Marry Me Ayshi?';
+            document.getElementById('message').innerText = msg;
+        }
+    </script>
+    <script>
+        function notpossible(){
+            var msg = 'But I love You';
+            document.getElementById('message').innerText = msg;
+        }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,76 @@
+.div{
+    text-align: center;
+}
+.boy {
+    float: left;
+    position: relative;
+    animation-name: bexample;
+    transition: 10s easy-in;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes bexample{
+    0% {
+        left: 0px;
+        top: 0px;
+    }
+    50% {
+        left: 34%;
+        top: 0px;
+    }
+    100% {
+        left: 0px;
+        top: 0px;
+    }
+}
+span {
+    animation-name: iexample;
+    transition: 10s easy-in;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    position: relative;
+    z-index: 100;
+    font-size: 160px;
+    color: red;
+}
+
+@keyframes iexample{
+    0% {
+        font-size: 0px;
+    }
+    
+    50% {
+        font-size: 500px;
+    }
+    100% {
+        width: 0px;
+    }
+}
+
+.girl {
+    
+    width: 18rem;
+    height: 18rem;
+    float: right;
+    background-color: red;
+    position: relative;
+    animation-name: example;
+    transition: 10s easy-in;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    0% {
+        right: 0px;
+        top: 0px;
+    }
+    50% {
+        right: 34%;
+        top: 0px;
+    }
+    100% {
+        right: 0px;
+        top: 0px;
+    }
+}
