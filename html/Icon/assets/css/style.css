@@ -1,0 +1,191 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+
+
+
+==================/* Start Bangladesh*/==================
+section{
+	width:100%;
+}
+
+.bangla{
+	width: 400px;
+	height: 200px;
+	background: green;
+	position: relative;	
+}
+
+.desh{
+	width: 100px;
+	height: 100px;
+	background: red;
+	border-radius: 50%;
+	position: absolute;
+	top: 17%;
+	left: 30%;
+}
+
+==================/* End Bangladesh*/==================
+
+
+==================/* Start Social Media-Facebook*/==================
+section{
+	width:100%;
+}
+
+.facebook{
+	width: 100%;
+	position: relative;
+
+}
+
+.facebook img{
+	width: 300px;
+	height: 100px;
+	position: fixed;
+	top: 3%;
+	right: -270px;
+	transition: 1s;
+	
+}
+.facebook img:hover{
+	right: 0px;
+	transition: 1s;
+}
+
+==================/* End Social Media-Facebook*/==================
+
+
+==================/* Start Social Media-instagram*/==================
+
+.instagram{
+	width: 100%;
+	position: relative;
+
+}
+
+.instagram img{
+	width: 200px;
+	height: 200px;
+	position: fixed;
+	top: 25%;
+	right: -140px;
+	transition: 1s;
+	
+}
+.instagram img:hover{
+	right: 0px;
+	transition: 1s;
+}
+
+==================/* End Social Media-instagram*/==================
+
+==================/* Start Social Media-twitter*/==================
+
+.twitter{
+	width: 100%;
+	position: relative;
+
+}
+
+.twitter img{
+	width: 300px;
+	height: 100px;
+	position: fixed;
+	top: 61%;
+	right: -250px;
+	transition: 1s;
+	
+}
+.twitter img:hover{
+	right: 0px;
+	transition: 1s;
+}
+
+==================/* End Social Media-twitter*/==================
+
+==================/* Start Social Media-linkldn*/==================
+
+.linkldn{
+	width: 100%;
+	position: relative;
+
+}
+
+.linkldn img{
+	width: 300px;
+	height: 100px;
+	position: fixed;
+	top: 80%;
+	right: -250px;
+	transition: 1s;
+	
+}
+.linkldn img:hover{
+	right: 0px;
+	transition: 1s;
+}
+
+==================/* End Social Media-linkldn*/==================
+
+
+/*==============================
+          Start Icon
+================================*/
+
+section{
+	width:100%;
+}
+
+.social-icon{
+	width: 100%;
+	padding: 80px 150px;
+}
+
+.social-icon ul{
+	list-style: none;
+}
+.social-icon ul li{
+	display: inline-block;
+
+}
+.social-icon ul li a{
+
+}
+.social-icon ul li a i{
+	width: 45px;
+	height: 45px;
+	line-height: 45px;
+	background: #08c;
+	border-radius: 50%;
+	color: #fff;
+	text-align: center;
+	margin: 0px 15px;
+	border: 1px solid #08c;
+}
+
+.social-icon ul li a i:hover{
+	background: transparent;
+	color: #08c;
+	border: 2px solid #08c;
+	transition: 1s;
+}
+
+.social-icon ul li a .fa-facebook:hover{
+	background: transparent;
+	color: #3B5CA0;
+	border: 2px solid #3B5CA0;
+	transition: 1s;
+}
+
+.social-icon ul li a .fa-youtube:hover{
+	background: transparent;
+	color: #ff0000;
+	border: 2px solid #ff0000;
+	transition: 1s;
+}
+
+==================/* End Icon*/==================
